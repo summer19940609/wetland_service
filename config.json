@@ -8,7 +8,7 @@
                 "deletedAt": false
             },
             "timezone": "+08:00",
-            "host": "192.168.109.237",
+            "host": "localhost",
             "dialect": "mysql",
             "dialectOptions": {
                 "charset": "utf8mb4"
