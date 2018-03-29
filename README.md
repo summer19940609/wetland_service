@@ -1,11 +1,11 @@
-#sequelize-auto生成models
+# sequelize-auto生成models
 ```code
 sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -u root -p 3306 -x Admin12345* -e mysql
 ```
 
 ## 读取两个excel文件账号信息批量登录老师学生账号，以便确定数据库老师学生关系信息
 
-#用户模块
+# 用户模块
 
 ## 1、登录
 ```code
@@ -120,7 +120,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 ```
 
 
-#问题模块
+# 问题模块
 
 ## 1、添加问题
 ```code
@@ -363,7 +363,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-#评价模块
+# 评价模块
 
 ## 1、列出老师的所有学生
 ```code
