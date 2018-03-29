@@ -1,0 +1,36 @@
+{
+    "sqlConfig": {
+        "options": {
+            "define": {
+                "timestamps": true,
+                "updatedAt": "update_time",
+                "createdAt": "create_time",
+                "deletedAt": false
+            },
+            "timezone": "+08:00",
+            "host": "192.168.109.237",
+            "dialect": "mysql",
+            "dialectOptions": {
+                "charset": "utf8mb4"
+            },
+            "pool": {
+                "max": 10,
+                "min": 0,
+                "idle": 10000
+            },
+            "operatorsAliases": false
+        },
+        "user": "root",
+        "password": "Admin12345*",
+        "database": "wetland_service"
+    },
+    "redisConfig": {
+        "port": 6379,
+        "host": "192.168.109.161",
+        "keyPrefix": "wetland"
+    },
+    "umsApiConfig": {
+        "umsUrl": "http://ums.tes-sys.com/ums-api"
+    },
+    "systemCode": "wetland"
+}
