@@ -3,11 +3,11 @@
 sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -u root -p 3306 -x Admin12345* -e mysql
 ```
 
-##读取两个excel文件账号信息批量登录老师学生账号，以便确定数据库老师学生关系信息
+## 读取两个excel文件账号信息批量登录老师学生账号，以便确定数据库老师学生关系信息
 
 #用户模块
 
-##1、登录
+## 1、登录
 ```code
 参数：{
 	"username":"xianianjun",
@@ -32,7 +32,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##2、注销
+## 2、注销
 ```code
 参数：{
 	"userId": "67F85309845A3C99DE931E07BA2581CD",
@@ -47,7 +47,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 ```
 
 
-##3、自动登录
+## 3、自动登录
 ```code
 参数：token
       userId
@@ -55,7 +55,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 192.168.110.17:3001/wetland_service/user/autoLogin
 ```
 
-##4、修改名字
+## 4、修改名字
 ```code
 参数：token
       userId
@@ -69,7 +69,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##5、修改图象
+## 5、修改图象
 ```code
 参数：userId
       token
@@ -83,7 +83,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##6、获得个人中心三个值
+## 6、获得个人中心三个值
 ```code
 参数：token
       userID
@@ -102,7 +102,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##9、更新班级名
+## 9、更新班级名
 ```code
 参数：userId
       token
@@ -122,7 +122,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 
 #问题模块
 
-##1、添加问题
+## 1、添加问题
 ```code
 参数：token
       userId
@@ -137,7 +137,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##2、删除问题
+## 2、删除问题
 ```code
 参数：token
       userId
@@ -151,7 +151,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##3、单个问题
+## 3、单个问题
 ```code
 参数：token
       userId
@@ -217,7 +217,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 ```
 
 
-##4、问题列表
+## 4、问题列表
 ```code
 参数：token
       userId
@@ -311,7 +311,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 ```
 
 
-##5、回答问题
+## 5、回答问题
 ```code
 参数：token
       userId
@@ -326,7 +326,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##6、获取问题答案数据
+## 6、获取问题答案数据
 ```code
 参数：token
       userId
@@ -365,7 +365,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 
 #评价模块
 
-##1、列出老师的所有学生
+## 1、列出老师的所有学生
 ```code
 参数：token
       teacherId
@@ -398,7 +398,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##2、批量添加评价
+## 2、批量添加评价
 ```code
 参数：token
       teacherId
@@ -442,7 +442,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##3、老师点开一个学生查看详细的记录
+## 3、老师点开一个学生查看详细的记录
 ```code
 参数： studentId
   teacherId
@@ -521,7 +521,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
 }
 ```
 
-##4、老师查看所有学生的记录
+## 4、老师查看所有学生的记录
 ```code
 参数： teacherId
       token
@@ -583,7 +583,7 @@ sequelize-auto -o "./routes/assets/sql_models" -d wetland_service -h localhost -
     ]
 }
 ```
-##5、学生查看自己的记录
+## 5、学生查看自己的记录
 ```code
 参数： studentId
       token
